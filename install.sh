@@ -4,7 +4,7 @@
 
 set -e
 
-REPO="zczy-k/rathole-deploy"
+REPO="zczy-k/rathole-deploy-release"
 BINARY_NAME="rathole-deploy"
 INSTALL_PATH="/usr/local/bin/${BINARY_NAME}"
 
