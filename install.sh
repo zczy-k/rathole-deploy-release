@@ -159,6 +159,12 @@ if [ "$MODE" = "upgrade" ]; then
     echo
     echo "备份位置："
     echo "  $BACKUP_DIR"
+    echo
+    echo "按回车键进入管理菜单..."
+    read -r
+
+    # 运行主程序进入菜单
+    /usr/local/bin/rathole-deploy
 
 else
     # 全新安装
